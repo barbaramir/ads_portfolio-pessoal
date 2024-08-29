@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bárbara Mirelli</title>
+    <!--Importar fontes a serem usadas na página-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Importar folha de estilo-->
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Cabeçalho da página com menu de navegação-->
+    <header class="cabecalho">
+      <h3 class="cabecalho_titulo">Bárbara Mirelli</h3>
+      <nav class="cabecalho_menu">
+        <ul>
+          <li class="cabecalho_link"><a href="#menu_sobre">Sobre mim</a></li>
+          <li class="cabecalho_link"><a href="#menu_formacao">Formação</a></li>
+          <li class="cabecalho_link">
+            <a href="#menu_portfolio">Portfólio</a>
+          </li>
+          <li class="cabecalho_link"><a href="#menu_contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container_principal">
+      <!--Seção sobre mim com texto e imagem do avatar-->
+      <section id="menu_sobre" class="sobre">
+        <div class="sobre_texto">
+          <h1>Olá, meu nome é Bárbara</h1>
+          <p>
+            Graduanda em Análise e Desenvolvimento de Sistemas, sou apaixonada
+            por desafios que impulsionam meu crescimento profissional. Buscando
+            aperfeiçoamento contínuo, complemento minha formação por meio de
+            cursos intensivos e projetos práticos, desenvolvendo tanto
+            habilidades técnicas quanto interpessoais. Com formação inicial em
+            Arquitetura e Urbanismo, possuo um olhar crítico e habilidades
+            analíticas para enfrentar desafios complexos, valorizando a
+            colaboração em equipe e a diversidade de perspectivas.
+          </p>
+        </div>
+        <img src="img/ola.png" alt="Avatar de Bárbara Mirelli" class="avatar" />
+      </section>
+      <!--Seção Formação (acadêmica, complementar e idioma) e Habilidades-->
+      <section id="menu_formacao" class="formacao_habilidades">
+        <div class="formacao">
+          <h1>Formação</h1>
+          <h2>Acadêmica</h2>
+          <p class="formacao_titulo">
+            Análise e Desenvolvimento de Sistemas - Em andamento
+          </p>
+          <p>
+            Centro Universitário Internacional Uninter - Fevereiro/2024 a
+            Julho/2026
+          </p>
+          <br />
+          <p class="formacao_titulo">Arquitetura e Urbanismo - Concluído</p>
+          <p>Universidade Federal de Minas Gerais - Março/2016 a Maio/2021</p>
+          <br />
+          <h2>Complementar</h2>
+          <p class="formacao_titulo">
+            Formação Full Stack | Programa Desenvolve 2023
+          </p>
+          <p>
+            Alura e Grupo Boticário | Carga horária: 464 horas - Conclusão:
+            Julho/2023 <br />
+            Desenvolvimento de projetos práticos utilizando: HTML, CSS, Figma,
+            JavaScript (Programação Orientada a Objetos, consumo e tratamento de
+            dados de API, implementação do CRUD, entre outros), Git e Github,
+            SQL (MySQL) e NoSQL (MongoDB), Node.js, TypeScript, React e estudo
+            da LGPD.
+          </p>
+          <p class="formacao_titulo">Bootcamp Python /Código[S]</p>
+          <p>
+            How Bootcamps e Stone Pagamentos | Carga horária: 150 horas -
+            Conclusão: Julho/2022 <br />
+            Formação em Python abrangendo Programação Orientada a Objetos,
+            Testes Unitários, Tratamento de erros e exceções, Persistência e
+            serialização, Arquiteturas, Banco de Dados - SQL, Django Rest API e
+            Flask.
+          </p>
+          <br />
+          <h2>Idioma</h2>
+          <p class="formacao_titulo">Inglês</p>
+          <p>Nível intermediário-avançado em leitura, escrita e conversação</p>
+        </div>
+        <!--Lista com as habilidades que possuo-->
+        <div class="habilidades">
+          <h1>Habilidades</h1>
+          <ul class="habilidade-itens">
+            <li class="habilidade-item">Python</li>
+            <li class="habilidade-item">JavaScript</li>
+            <li class="habilidade-item">Node</li>
+            <li class="habilidade-item">HTML</li>
+            <li class="habilidade-item">CSS</li>
+            <li class="habilidade-item">React</li>
+            <li class="habilidade-item">TypeScript</li>
+            <li class="habilidade-item">SQL</li>
+            <li class="habilidade-item">Git/Github</li>
+            <li class="habilidade-item">Figma</li>
+          </ul>
+        </div>
+      </section>
+      <!--Seção de Portfólio com lista de 3 cards de projetos realizados-->
+      <section id="menu_portfolio" class="portfolio">
+        <h1>Portfólio</h1>
+        <ul class="itens-portfolio">
+          <li>
+            Sorteador de Amigo Secreto<br /><a
+              href="https://desenvolve-amigo-secreto.vercel.app/"
+              ><img
+                src="img/sorteador.PNG"
+                alt="Página Inicial do Sorteador de Amigo Secreto"
+                class="portfolio_imagem"
+            /></a>
+          </li>
+          <li>
+            Restaurante Aluroni<br /><a
+              href="https://desenvolve-aluroni.vercel.app/"
+              ><img
+                src="img/aluroni.PNG"
+                alt="Página Inicial do Restaurante Aluroni"
+                class="portfolio_imagem"
+            /></a>
+          </li>
+          <li>
+            Robotron 2000<br /><a
+              href="https://desenvolve-robotron-2000.vercel.app/"
+              ><img
+                src="img/robotron.PNG"
+                alt="Página Inicial do Robotron 2000"
+                class="portfolio_imagem"
+            /></a>
+          </li>
+        </ul>
+      </section>
+      <!--Seção de Contato com formulário para envio dos dados (todos de preenchimento obrigatório)-->
+      <section id="menu_contato" class="contato">
+        <h1>Contato</h1>
+        <form class="contato_formulario">
+          <div class="contato_campo">
+            <label for="nome">Nome:</label><br />
+            <input
+              type="text"
+              name="nome"
+              required
+              class="contato_input"
+            /><br />
+          </div>
+          <div class="contato_campo">
+            <label for="email">E-mail:</label><br />
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="seuemail@dominio.com"
+              class="contato_input"
+            /><br />
+          </div>
+          <div class="contato_campo">
+            <label for="mensagem">Mensagem:</label><br />
+            <textarea
+              name="mensagem"
+              rows="10"
+              cols="30"
+              required
+              placeholder="Digite aqui sua mensagem"
+              class="contato_input"
+            ></textarea>
+          </div>
+          <input type="submit" value="Enviar" class="botao_enviar" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

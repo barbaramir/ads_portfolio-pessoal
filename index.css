@@ -1,0 +1,181 @@
+/*Definindo paleta de cores e propriedades a serem utilizadas em toda a página*/
+:root {
+    --azul-claro-fundo:  #f4f9fc;
+    --azul-medio-fundo: #aadcec;
+    --azul-escuro-fonte: #0f1b61;
+    --roxo: #7f00e0;
+    box-sizing: border-box;
+}
+
+/*Definindo fonte a ser utilizada em todos os textos*/
+body {
+    font-family: "Bitter", serif;
+}
+
+/*Definindo propriedades do cabeçalho*/
+.cabecalho {
+    display: flex;
+    padding-left: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_menu {
+    padding-right: 150px;
+}
+
+.cabecalho_menu a, .cabecalho_titulo {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--roxo);
+}
+
+.cabecalho_link {
+    display: inline-block;
+    justify-items: center;
+    padding: 0 20px 0 20px;
+}
+
+/*Definindo as propriedades do container do conteúdo principal da página*/
+.container_principal {
+    padding-left: 100px;
+    padding-right: 150px;
+    background-color: var(--azul-claro-fundo);
+    padding-bottom: 50px;
+}
+
+/*Definindo propriedades de texto e imagem da seção sobre mim*/
+.sobre {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 700px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.sobre_texto {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.sobre_texto h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--azul-escuro-fonte);
+}
+
+.sobre_texto p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.avatar {
+    position: relative;
+    justify-self: right;
+    width: 400px;
+    padding-right: 5%;
+}
+
+/*Definindo as propriedades da seção Formação e Habilidades*/
+.formacao_habilidades {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formacao {
+    width: 50%;
+}
+
+.formacao h1, .habilidades h1, .portfolio h1, .contato h1 {
+    font-size: 40px;
+    color: var(--azul-escuro-fonte);
+    font-weight: 700;
+}
+
+.formacao h2, .itens-portfolio li {
+    font-size: 22px;
+    color: var(--roxo);
+    font-weight: 600;
+}
+
+.formacao_titulo {
+    font-weight: 600;
+}
+
+.formacao p {
+    line-height: 26px;
+    text-align: justify;
+}
+
+.habilidades {
+    width: 50%;
+}
+
+.habilidade-itens {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.habilidade-item {
+    background-color: var(--roxo);
+    padding: 2.5%;
+    margin: 1.5%;
+    width: 90px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*Definindo as propriedades da seção Portfólio*/
+.itens-portfolio {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.portfolio_imagem {
+    width: 400px;
+    margin-top: 10px;
+}
+
+/*Definindo as propriedades da seção Contato*/
+.contato {
+    margin-top: 100px;
+}
+
+.contato_formulario {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato_campo {
+    margin: 10px;
+    justify-self: center;
+    font-size: 18px;
+}
+
+.contato_input {
+    width: 700px;
+}
+
+.botao_enviar {
+    background-color: var(--roxo);
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-top: 10px;
+}
